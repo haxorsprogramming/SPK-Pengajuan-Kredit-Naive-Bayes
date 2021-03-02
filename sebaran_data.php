@@ -117,9 +117,9 @@ $qDataPengajuan = $link -> query("SELECT * FROM tbl_pengajuan_kredit;");
                                 <td><?=$no; ?></td>
                                 <td>A<?=$no; ?></td>
                                 <td><?=$fn -> nama; ?></td>
-                                <td style="background-color: <?=$warnaBarisC1;?>;"><?=$hC1; ?></td>
-                                <td style="background-color: <?=$warnaBarisC2;?>;"><?=$hC2; ?></td>
-                                <td style="background-color: <?=$warnaBarisC3;?>;"><?=$hC3; ?></td>
+                                <td style="background-color: <?=$warnaBarisC1;?>;"><?=$nilaiC1; ?></td>
+                                <td style="background-color: <?=$warnaBarisC2;?>;"><?=$nilaiC2; ?></td>
+                                <td style="background-color: <?=$warnaBarisC3;?>;"><?=$nilaiC3; ?></td>
                                 <td style="background-color: <?=$warnaBarisC4;?>;"><?=$hC4; ?></td>
                                 <td style="background-color: <?=$warnaBarisC5;?>;"><?=$hC5; ?></td>
                                 <td><?=$statusProbabilitas; ?></td>
